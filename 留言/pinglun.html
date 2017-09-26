@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	    *{
+	    	margin: 0;
+	    	padding: 0;
+	    	list-style: none;
+	    }
+	    body{
+	    	background: #c7fae9;
+	    }
+	    .kuang{
+	    	width: 600px;
+	    	height: auto;
+	    	background: #00ffa8;
+	    	margin: 20px auto;
+	    	padding: 10px;
+	    }
+	    input{
+	    	width: 500px;
+			height: 40px;
+			margin: 10px 50px;
+			font-size: 16px;
+			outline: none;
+	    }
+		textarea{
+			width: 400px;
+			height: 300px;
+			margin: 0 100px;
+			font-size: 16px;
+			resize: none;
+			outline: none;
+		}
+		.tips{
+			width: 400px;
+			height: 20px;
+			margin: 0 100px;
+			font-size: 14px;
+			color: #fff;
+		}
+		.tips span{
+			font-size: 16px;
+			color: #808080;
+		}
+		.anniu{
+			width: 200px;
+			height: 20px;
+			margin-left: 390px;
+		}
+		button{
+			width: 50px;
+			height: 40px;
+			background: skyblue;
+			outline: none;
+			border-radius: 10px;
+			font-size: 16px;
+			text-align: center;
+			margin-right: 10px;
+			float:left;
+		}
+		.kong{
+			width: auto;
+			height: auto;
+			margin: 40px auto;
+		}
+		.liuyan{
+			width: 500px;
+			min-height: 100px;
+			border: 1px solid #000;
+			margin: 10px auto;
+			position: relative;
+		}
+		.liuyan img{
+			width: 80px;
+			height: 80px;
+			margin: 10px 10px;
+			position: absolute;
+		}
+		.liuyan .middle{
+			position: relative;
+			margin-left: 100px;
+		}
+	</style>
+	<script src='pinglun.js'></script>
+</head>
+<body>
+	<div class="kuang">
+		<input type="text" placeholder="请输入你的名字">
+		<textarea value= "" placeholder="请输入你的内容" maxlength="300"></textarea>
+		<div class="tips">已输入<span class="num">7</span>字，还剩余<span class="rest">293</span>字,可输入<span>300</span>字</div>
+	    <div class="anniu">
+		    <button class="submit">提交</button>
+		    <button class="cancle">取消</button>
+	    </div>
+	    <ul class="kong">
+		    <li class="liuyan">
+		    	<img src="01-013925_774.jpg" alt="">
+		    	<div class="middle">
+		    		<h3>张三</h3>
+		    	    <p>这是张三的留言</p>
+		    	</div>
+		    </li>
+		    <li class="liuyan">
+		    	<img src="u=2558392474,3092508851&fm=27&gp=0.jpg" alt="">
+		    	<div class="middle">
+		    		<h3>李四</h3>
+		    	    <p>这是李四的留言</p>
+		    	</div>
+		    </li>
+	    </ul>
+	</div>
+</body>
+</html>
